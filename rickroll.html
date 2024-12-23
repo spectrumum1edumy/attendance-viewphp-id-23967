@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Roll</title>
+</head>
+<body>
+    <style>
+    @keyframes zoomAnim {
+        0% { transform: scale(0.5); color: black; }
+        100% { transform: scale(1.4); color: red }
+    }
+    </style>
+    <div style="width: fit-content; height: fit-content; max-width: 100%; margin: auto auto;">
+        <marquee behavior="alternate" direction="right" scrollamount="15"><h1>You just got Rick Rolled!</h1></marquee>
+        <h3 style="animation: zoomAnim 0.5s alternate infinite; animation-fill-mode: both; transform-origin: center; width: fit-content; margin: 10px auto;">GG! We ate your <b>Cookies</b> now!</h3>
+        <img src="rickroll.webp" alt="Rick Roll" width="500" height="500" style="max-width: 100%;">   
+    </div>
+</body>
+</html>
